@@ -1,0 +1,20 @@
+{
+  "name": "toxin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.pug -p 3000 --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.pug",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "pug": "^3.0.0"
+  }
+}
