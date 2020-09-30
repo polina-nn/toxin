@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.pug -p 3000 --open",
+    "start": "parcel src/pages/index.pug -p 3000 --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.pug",
+    "build:parcel": "parcel build src/pages/index.pug",
     "build": "npm run clean && npm run build:parcel"
   },
   "author": "",
