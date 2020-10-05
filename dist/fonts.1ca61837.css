@@ -5,7 +5,7 @@
     font-weight: 400;
     src: url("/montserrat-v14-latin_cyrillic-regular.0fc1912e.eot"); /* IE9 Compat Modes */
     src: local("Montserrat Regular"), local("Montserrat-Regular"),
-      u rl("../fonts/montserrat-v14-latin_cyrillic-regular.eot?#iefix")
+      url("/montserrat-v14-latin_cyrillic-regular.0fc1912e.eot?#iefix")
         format("embedded-opentype"),
        url("/montserrat-v14-latin_cyrillic-regular.6974e7d0.woff2")
         format("woff2"),
