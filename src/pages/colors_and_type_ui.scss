@@ -1,0 +1,41 @@
+@import "../scss/variables.scss";
+@import "../components/colors/colors.scss";
+@import "../components/type/type.scss";
+@import "../components/logo/logo.scss";
+
+.pages-color-type__wrapper {
+  width: 1440px;
+  height: 900px;
+  display: grid;
+  grid-template-columns: 150px 300px 397px 403px auto;
+  grid-template-rows: 145px auto;
+}
+.pages-horizontal-gap__wrapper {
+  width: 1440px;
+  height: 50px;
+  background-color: #e5e5e5;
+}
+.pages-form-elements__wrapper {
+  width: 1440px;
+  height: 1853px;
+}
+.pages-color-type_colors__wrapper {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.pages-color-type_logo__wrapper {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: url('./logo.svg');
+}
+.pages-color-type_type__wrapper {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+

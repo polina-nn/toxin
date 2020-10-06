@@ -9,5 +9,11 @@ html(lang="ru")
     link(rel="stylesheet" href="./colors_and_type_ui.scss")
 
   body
-    p
-      |страница колорс 
+    div.pages-color-type__wrapper
+      div.pages-color-type_colors__wrapper
+        include ../components/colors/colors
+      div.pages-color-type_type__wrapper  
+        include ../components/type/type
+      div.pages-color-type_logo__wrapper
+        include ../components/logo/logo
+         
