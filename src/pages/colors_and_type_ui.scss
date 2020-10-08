@@ -6,9 +6,11 @@
 .pages-color-type__wrapper {
   width: 1440px;
   height: 900px;
+  background: FFFFFF; /* цвет заднего фона */
   display: grid;
   grid-template-columns: 150px 300px 397px 403px auto;
   grid-template-rows: 145px auto;
+ 
 }
 .pages-horizontal-gap__wrapper {
   width: 1440px;
@@ -30,6 +32,8 @@
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+  margin-top: 30px;
+  margin-left: 30px;
   
 } 
 .pages-color-type_type__wrapper {

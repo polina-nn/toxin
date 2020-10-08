@@ -1,0 +1,131 @@
+@import "../components/logo/logo.scss";
+
+.pages-form_elements_wrapper {
+  width: 1440px;
+  height: 1853px;
+  display: grid; /* элемент отображается как блочный grid-контейнер */
+  background: #FFFFFF; /* цвет заднего фона */
+  grid-template-rows: 143px 84px 84px 84px 106px 84px 110px 84px 100px 262px 50px 272px 100px 152px; /* определяем количество и ширину строк в макете сетки */
+  grid-template-columns: 141px 320px 126px 320px 72px 320px 141px; /* определяем количество и ширину столбцов в макете сетки */
+  grid-template-areas:
+     'logo  . . . . . .'
+     '.   text_field_default . checkbox_buttons . range_slider .'
+     '.   text_field_hover   . checkbox_buttons . button_full .'
+     '.   dropdown   . radio_buttons . button_empty .'
+     '.   masked_text_field   . toggle . button_long .'
+     '.   date_dropdown   . like_button . pagination .'
+     '.   filter_date_dropdown   . rate_button . pagination .'
+     '.   subscription_text_field   . . . . .'
+     '.   .   . . . . .'
+     '.   dropdown_big_1   . dropdown_big_2 . dropdown_big_3 .'
+     '.   .   . . . . .'
+     '.   expandable_checkbox_list   . rich_checkbox_buttons . bullet_list .'
+     '.   .   . . . . .'
+     '.   logo_comfort   . about about about  .'
+
+}
+.pages-form_elements_logo_wrapper{
+    grid-area: logo;
+    margin-top: 30px;
+    margin-left: 30px;  
+} 
+.pages-form_elements_2_wrapper{
+    grid-area: text_field_default;
+    background: aqua;
+} 
+.pages-form_elements_3_wrapper{
+    grid-area: text_field_hover;
+    background: rgb(81, 255, 0);
+} 
+.pages-form_elements_4_wrapper{
+    grid-area: dropdown;
+    background: rgb(238, 255, 0);
+} 
+.pages-form_elements_5_wrapper{
+    grid-area: masked_text_field;
+    background: rgb(255, 167, 4);
+} 
+.pages-form_elements_7_wrapper{
+    grid-area: date_dropdown;
+    background:green;
+} 
+.pages-form_elements_8_wrapper{
+    grid-area: filter_date_dropdown;
+    background:blue;
+} 
+.pages-form_elements_9_wrapper{
+    grid-area: subscription_text_field;
+    background: rgb(234, 4, 255);
+} 
+.pages-form_elements_10_wrapper{
+    grid-area: checkbox_buttons;
+    background: rgb(102, 14, 160);
+} 
+.pages-form_elements_11_wrapper{
+    grid-area: radio_buttons;
+    background: rgb(198, 14, 160);
+} 
+.pages-form_elements_12_wrapper{
+    grid-area: toggle;
+    background: rgb(87, 81, 86);
+} 
+.pages-form_elements_13_wrapper{
+    grid-area: like_button;
+    background: rgb(95, 14, 182);
+} 
+.pages-form_elements_14_wrapper{
+    grid-area: rate_button;
+    background: rgb(171, 171, 243);
+} 
+.pages-form_elements_15_wrapper{
+    grid-area: range_slider;
+    background: rgb(95, 14, 182);
+} 
+.pages-form_elements_16_wrapper{
+    grid-area: button_full;
+    background: rgb(201, 108, 22);
+} 
+.pages-form_elements_17_wrapper{
+    grid-area: button_empty;
+    background: rgb(212, 44, 184);
+} 
+.pages-form_elements_18_wrapper{
+    grid-area: button_long;
+    background: rgb(181, 226, 18);
+} 
+.pages-form_elements_19_wrapper{
+    grid-area: pagination;
+    background: rgb(18, 226, 216);
+} 
+.pages-form_elements_20_wrapper{
+    grid-area: dropdown_big_1 ;
+    background: orchid;
+} 
+.pages-form_elements_21_wrapper{
+    grid-area: dropdown_big_2 ;
+    background:olivedrab;
+} 
+.pages-form_elements_22_wrapper{
+    grid-area: dropdown_big_3 ;
+    background: orangered;
+} 
+.pages-form_elements_23_wrapper{
+    grid-area: expandable_checkbox_list ;
+    background: yellowgreen;
+} 
+.pages-form_elements_24_wrapper{
+    grid-area: rich_checkbox_buttons ;
+    background:lightcoral;
+} 
+.pages-form_elements_25_wrapper{
+    grid-area: bullet_list ;
+    background:lightseagreen;
+} 
+.pages-form_elements_26_wrapper{
+    grid-area: logo_comfort ;
+    background:teal;
+} 
+.pages-form_elements_27_wrapper{
+    grid-area: about ;
+    background:orchid;
+} 
