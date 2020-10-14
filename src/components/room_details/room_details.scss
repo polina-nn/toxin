@@ -1,0 +1,47 @@
+/*контейнер для сведений о номере */
+.room_details_container{
+    font-family: $font_family_body;
+    font-size: $font_size_body;
+    color: $color_dark_almost;
+    line-height: 24px;
+    padding: 0;
+    margin: 0; 
+    display: grid;
+    row-gap: 20px; 
+  }
+  .room_details_container_oneRecord{
+    width:280px;
+    display: grid;
+    grid-template-columns: 52px auto;
+    grid-template-rows: 65px;
+    column-gap: 5px;
+    margin-left: 0px;
+    border-bottom: solid 1px $color_dark_light_light;
+  }
+  .room_details_logoComfort {    
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 48px;
+    height: 49px;
+    background: url('./room_details_insert_emoticon.svg') no-repeat;
+  }
+  .room_details_logoUsable {
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 48px;
+    height: 49px;
+    background: url('./room_details_location_city.svg') no-repeat;
+  }
+  .room_details_logoCozy {
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 48px;
+    height: 49px;
+    background: url('./room_details_whatshot.svg') no-repeat;
+  }
+  .room_details_title{
+    font-weight: bold;
+  }
+  /*.room_details_text_container {
+  }*/
+  

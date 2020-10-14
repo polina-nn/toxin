@@ -36,7 +36,10 @@ html(lang="ru")
       div.pages-form_elements_23_wrapper 
       div.pages-form_elements_24_wrapper 
       div.pages-form_elements_25_wrapper  
-      div.pages-form_elements_26_wrapper 
+      div.pages-form_elements_room_details_wrapper 
+        include ../components/room_details/room_details
+        //+room_details({'comfort':'Шумопоглощающие стены', 'usable':'Окно в каждой из спален', 'cozy':'Номер оснащён камином'})
+        +room_details({'comfort':'Шумопоглощающие стены', 'usable':'Окно в каждой из спален'})
       div.pages-form_elements_27_wrapper 
       
     

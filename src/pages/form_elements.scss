@@ -1,11 +1,15 @@
+@import "../scss/variables.scss";
 @import "../components/logo/logo.scss";
+@import"../components/room_details/room_details";
+
+
 
 .pages-form_elements_wrapper {
   width: 1440px;
   height: 1853px;
   display: grid; /* элемент отображается как блочный grid-контейнер */
   background: #FFFFFF; /* цвет заднего фона */
-  grid-template-rows: 143px 84px 84px 84px 106px 84px 110px 84px 100px 262px 50px 272px 100px 152px; /* определяем количество и ширину строк в макете сетки */
+  grid-template-rows: 143px 84px 84px 84px 106px 84px 110px 84px 100px 262px 50px 272px 104px 160px; /* определяем количество и ширину строк в макете сетки */
   grid-template-columns: 141px 320px 126px 320px 72px 320px 141px; /* определяем количество и ширину столбцов в макете сетки */
   grid-template-areas:
      'logo  . . . . . .'
@@ -21,7 +25,7 @@
      '.   .   . . . . .'
      '.   expandable_checkbox_list   . rich_checkbox_buttons . bullet_list .'
      '.   .   . . . . .'
-     '.   logo_comfort   . about about about  .'
+     '.   room_details   . about about about  .'
 
 }
 .pages-form_elements_logo_wrapper{
@@ -121,9 +125,8 @@
     grid-area: bullet_list ;
     background:lightseagreen;
 } 
-.pages-form_elements_26_wrapper{
-    grid-area: logo_comfort ;
-    background:teal;
+.pages-form_elements_room_details_wrapper{
+    grid-area: room_details;
 } 
 .pages-form_elements_27_wrapper{
     grid-area: about ;

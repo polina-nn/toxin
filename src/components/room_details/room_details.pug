@@ -1,0 +1,25 @@
+//key_value_array('comfort':'комфортно', 'usable':'удобно', 'cozy':'уютно')
+mixin room_details(key_value_array)
+  .room_details_container
+    each value, key in key_value_array
+      if key=='comfort'
+       .room_details_container_oneRecord
+           .room_details_logoComfort
+           .room_details_text_container 
+             .room_details_title='Комфорт'
+             .b=value
+      else if key=='usable'
+        .room_details_container_oneRecord
+           .room_details_logoUsable
+           .room_details_text_container 
+             .room_details_title='Удобство'
+             .b=value
+      else if key=='cozy'
+         .room_details_container_oneRecord
+           .room_details_logoCozy
+           .room_details_text_container 
+             .room_details_title= 'Уют'
+             .b=value
+      else 
+        p
+         |переданы ключи отличные от (comfort, usable, cozy)

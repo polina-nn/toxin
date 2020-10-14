@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .colors_font {
-  font-family: Quicksand;
+  font-family: Quicksand, Arial, sans-serif;
   font-size: 1.9rem;
   line-height: 29px;
   text-align: left;

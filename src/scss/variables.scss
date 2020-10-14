@@ -1,9 +1,9 @@
 // FONTS переменные для шрифтов 
 // создала 4 переменных, так как возможно введение отдельного шрифта для body или h1
-$font_family_body: Montserrat; // шрифт для body
-$font_family_3: Montserrat; // семейство шрифта для h3
-$font_family_2: Quicksand; // семейство шрифта для h3
-$font_family_1: Quicksand; // семейство шрифта для h1
+$font_family_body: Montserrat, Arial, sans-serif; // шрифт для body
+$font_family_3: Montserrat, Arial, sans-serif; // семейство шрифта для h3
+$font_family_2: Quicksand, Arial, sans-serif; // семейство шрифта для h3
+$font_family_1: Quicksand, Arial, sans-serif; // семейство шрифта для h1
 
 $font_size_body_small: 1rem; // размер шрифта для body маленького
 $font_size_body: 1.4rem; // шрифт для body
@@ -16,6 +16,7 @@ $color_dark_dark:#1f2041; // темный
 $color_dark_almost: rgba(31, 32, 65, 0.75); // почти темный
 $color_dark_medium: rgba(31, 32, 65, 0.5); // средний
 $color_dark_light: rgba(31, 32, 65, 0.25); // светлый
+$color_dark_light_light: rgba(31, 32, 65, 0.1); // светлo-светлый
 $color_dark_extra_light: rgba(31, 32, 65, 0.05); // очень светлый
 $color_primary:   #bc9cff;
 $color_secondary: #6fcf97;
