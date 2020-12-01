@@ -1,0 +1,25 @@
+.text-field_input-container{
+    font-family: $font_family_3;
+    font-size: $font_size_body;
+    color: $color_dark_light;
+    line-height: 18px;
+    display:inline-block; //превращаю из строчного в блочный для изменения ширины
+    border:  1px solid $color_dark_light; // светлая рамочка вокруг input
+    border-radius: 4px;
+
+
+    text-align: left;   //выравниваю текст внутри input по левому краю
+    text-indent: 12px;   //отступ от  левого края
+    padding-top:12px;    //регулирую высоту блока input
+    padding-bottom:12px;  //регулирую высоту блока input
+    width: 316px;        // ширина блока input
+
+
+  }
+.text-field_input-hover,
+input:hover,
+input:focus
+  {
+    color: $color_dark_almost;
+    border:  1px solid $color_dark_medium;
+  }

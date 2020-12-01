@@ -12,8 +12,20 @@ html(lang="ru")
     div.pages-form_elements_wrapper    
       div.pages-form_elements_logo_wrapper
         include ../components/logo/logo
-      div.pages-form_elements_2_wrapper  
-      div.pages-form_elements_3_wrapper 
+      div.pages-form_elements_text-field_default_wrapper
+        include ../components/text-field/text-field 
+        section.pages-form_elements_text-field_default_wrapper_section
+          .pages-form_elements_text-field_default_wrapper_text1 Text Field
+          .pages-form_elements_text-field_default_wrapper_text2  Default
+        div.pages-form_elements_text-field_default_wrapper_input
+        +text-field("Email") 
+      div.pages-form_elements_text-field_hover_wrapper
+        include ../components/text-field/text-field 
+        section.pages-form_elements_text-field_default_wrapper_section
+          .pages-form_elements_text-field_default_wrapper_text1 Text Field
+          .pages-form_elements_text-field_default_wrapper_text2  Hover /Focus
+        div.pages-form_elements_text-field_default_wrapper_input
+        +text-field("This is pretty awesome", "hover") 
       div.pages-form_elements_4_wrapper 
       div.pages-form_elements_5_wrapper  
       div.pages-form_elements_6_wrapper 

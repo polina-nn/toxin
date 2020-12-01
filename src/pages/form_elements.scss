@@ -1,7 +1,7 @@
 @import "../scss/variables.scss";
 @import "../components/logo/logo.scss";
 @import"../components/room_details/room_details";
-
+@import"../components/text-field/text-field";
 
 
 .pages-form_elements_wrapper {
@@ -33,13 +33,43 @@
     margin-top: 30px;
     margin-left: 30px;  
 } 
-.pages-form_elements_2_wrapper{
+.pages-form_elements_text-field_default_wrapper{
     grid-area: text_field_default;
-    background: aqua;
 } 
-.pages-form_elements_3_wrapper{
+.pages-form_elements_text-field_default_wrapper_section{
+  display: grid;
+  grid-template-columns: 80px 240px;
+  grid-template-rows: 10px ;
+}
+.pages-form_elements_text-field_default_wrapper_text1 {
+  grid-row-start: 1; 
+  grid-row-end: 1; 
+  grid-column-start: 1;   
+  grid-column-end: 1; 
+  text-align:left;
+  text-transform: uppercase;
+  color: $color_dark_dark;
+  font-family: $font_family_3;
+  font-size: $font_size_3;
+  font-weight: 700;
+}
+.pages-form_elements_text-field_default_wrapper_text2 {
+  grid-row-start: 1; 
+  grid-row-end: 1; 
+  grid-column-start: 2;   
+  grid-column-end: 2; 
+  text-align: right;
+  text-transform: uppercase;
+  color: $color_dark_medium;
+  font-family: $font_family_3;
+  font-size: $font_size_3;
+}
+.pages-form_elements_text-field_default_wrapper_input{
+   margin-top: 10px;
+}
+
+.pages-form_elements_text-field_hover_wrapper{
     grid-area: text_field_hover;
-    background: rgb(81, 255, 0);
 } 
 .pages-form_elements_4_wrapper{
     grid-area: dropdown;

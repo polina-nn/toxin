@@ -1,0 +1,16 @@
+//+text_field(Фамилия) в скобках передаю имя поля, которое пишется в placeholder
+// переменную state использую только на странице UI Kit, где необходимо
+// показать text_field в состоянии hover
+mixin text-field(label, state="default")
+    if state =="hover" 
+      input(class='text-field_input-container text-field_input-hover', type="text", name=label, placeholder=label )
+
+    else if label == "Фамилия"
+      input(class='text-field_input-container', type="text", name="surname", placeholder="Фамилия")
+    else if label == "Имя"
+      input(class='text-field_input-container',type="text", name="name", placeholder="Имя") 
+    else if label == "Email"
+    
+      input(class='text-field_input-container',type="text", name="email", placeholder="Email") 
+    else
+      | переданы значения отличные от (имя, фамилия, дд.мм.гггг, пароль, email)
